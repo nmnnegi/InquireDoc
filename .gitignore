@@ -1,0 +1,43 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+*.idea
+*.vscode
+*.DS_Store
+
+# ===== Virtual Environment =====
+venv/
+env/
+*.log
+
+# ===== OS-Specific =====
+# macOS
+.DS_Store
+
+
+
+# ===== Environment Variables =====
+.env
+
+
+# ===== Streamlit Cache =====
+.streamlit/
+.stcache/
+.stcache/*
+.stapp/
+
+# ===== Python Package Files =====
+*.egg-info/
+*.dist-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+
+
+
+
