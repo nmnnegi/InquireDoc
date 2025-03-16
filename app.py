@@ -19,7 +19,7 @@ groq_api_key = st.secrets["GROQ_API_KEY"]
 os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 
 # Set page config with wide layout
-st.set_page_config(page_title="Gemma Doc Q&A", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="InquireDoc", layout="wide", initial_sidebar_state="expanded")
 
 # ====== Session State Initialization ======
 session_defaults = {
